@@ -43,7 +43,7 @@ def number_to_full_month_name(month):
         return "September"
     
 def number_to_short_month_name(month):
-    months = ["dumb","Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"]
+    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"]
     month - 1
     return months[month]
 
